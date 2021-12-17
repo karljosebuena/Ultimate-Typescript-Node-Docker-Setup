@@ -1,0 +1,19 @@
+{
+  "name": "ultimate-node-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Karl Jose Buena",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf kdist && tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "typescript": "4.5.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "1.0.1",
+    "@types/node": "17.0.0",
+    "rimraf": "3.0.2"
+  }
+}
